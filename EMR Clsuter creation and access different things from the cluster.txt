@@ -1,0 +1,35 @@
+After creating EMR Clsuter we can access al these :
+Just need toe give the Master DNS here instead of the default dns name 'master-public-dns-name' 
+
+
+Access ganglia:
+http://ec2-3-87-209-11.compute-1.amazonaws.com/ganglia/
+http://ec2-3-236-91-178.compute-1.amazonaws.com/ganglia/
+
+Access jupyter hub:
+https://master-public-dns-name:9443/
+https://ec2-3-236-91-178.compute-1.amazonaws.com:9443/
+
+id : jovyan
+password: jupyter
+
+
+HUE link:
+http://ec2-3-87-209-11.compute-1.amazonaws.com:8888/hue/editor/?type=hive
+
+
+Link:
+https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-web-interfaces.html
+
+
+
+
+Case study11:
+crete EMR cluster,
+do the puTTY connection, 
+Then create a Logistic model in EMR Clsuter jupyter notebooo
+And understand the metrics insights in ganglia
+and also Hadoop name node url.
+
+
+
